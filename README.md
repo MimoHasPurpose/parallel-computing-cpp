@@ -10,3 +10,4 @@ working on parallel computing.
 
 - `g++ -fopenmp code2.c`
 - mpi4py
+- dask
