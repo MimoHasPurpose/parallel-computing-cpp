@@ -1,4 +1,5 @@
 # parallel-computing-cpp:
+
 working on parallel computing.
 
 - [tutorial](https://www.openmp.org/resources/tutorials-articles/)
@@ -7,18 +8,23 @@ working on parallel computing.
 - [llnl](https://hpc-tutorials.llnl.gov/openmp/)
 - [book](https://theartofhpc.com/pcse/index.html)
 
+- concurrency- doing multiple things at same time.
+- i/o bottleneck- when computer spends more time waiting on various inputs and outputs
+  then on processing the info.
+- parallelism- two ore more actions simultaneously.
 
+- 1 core: single thread, single process
+- 2-8 core: multithread multiprocesing
+- 9+ cores: distributed computing
 
 - `g++ -fopenmp code2.c`
 - mpi4py
 - dask
 
 ### Multiprocessing:
+
 - via threading
-    - subject to GIL 
-    - cPython interpreter is not thread-safe
+  - subject to GIL
+  - cPython interpreter is not thread-safe
 - via multiprocessing
-    - useful for parallel computation
-
-
-
+  - useful for parallel computation
