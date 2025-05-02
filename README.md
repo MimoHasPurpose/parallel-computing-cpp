@@ -12,3 +12,11 @@ working on parallel computing.
 - `g++ -fopenmp code2.c`
 - mpi4py
 - dask
+
+### Multiprocessing:
+- via threading
+    - subject to GIL 
+    - cPython interpreter is not thread-safe
+- via multiprocessing
+    - useful for parallel computation
+
