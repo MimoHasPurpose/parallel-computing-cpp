@@ -21,6 +21,8 @@ working on parallel computing.
 - mpi4py
 - dask
 
+- [CUDA c++ programming guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#)
+
 ### Multiprocessing:
 
 - via threading
