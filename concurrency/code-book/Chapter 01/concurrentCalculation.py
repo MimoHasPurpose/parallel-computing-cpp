@@ -29,7 +29,7 @@ def main():
   procs = []
 
   # Here we create our processes and kick them off
-  for i in range(10):
+  for i in range(2):
     proc = Process(target=executeProc, args=())
     procs.append(proc)
     proc.start()

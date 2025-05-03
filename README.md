@@ -22,6 +22,7 @@ working on parallel computing.
 - dask
 
 - [CUDA c++ programming guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#)
+- [GPU gems](https://developer.nvidia.com/gpugems/gpugems3/contributors) amazing book for applications of GPU's.
 
 ### Multiprocessing:
 
